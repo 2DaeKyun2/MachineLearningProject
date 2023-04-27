@@ -43,5 +43,35 @@
 - RevolvingUtilizationOfUnsecuredLines
     - 부동산과 할부 부채(installment debit)를 제외한 보유 자산 및 신용 대비 현재 운용할 수 있는 돈의 비율
     - float
-    - ex) 신용카드 총 한도가 100만원, 통장 잔액이 200만원인 상황에서 남은 신용카드 한도가 40만원인 경우
+    > ex) 신용카드 총 한도가 100만원, 통장 잔액이 200만원인 상황에서 남은 신용카드 한도가 40만원인 경우
     > (200만원+40만원)/(200+100) = 220만원 / 300만원 = 0.8
+- Age
+    - 대출자의 나이
+    - Integer
+- NumberOfTime30-59DaysPastDueNotWorse
+    - 최근 2년 동안 30일 ~ 59일 연체한 횟수
+    - Integer
+- DebtRatio
+    - 전체 수입 대비 원 부채 상환과 월 지출 합계의 비율
+    - float
+    > ex) 수입이 1000만워인 사람이 한달에 300만원 씩 부채를 갚고 있고 그 외 지출(생활비 등)하는 비용이 500만원인 경우
+    > (300만원 + 500만원)/1000만원 = 800만원 / 1000만원 = 0.8
+- MontlyIncome
+    - 월 수입
+    - Integer
+- NumberOfOpenCredictLinesAndLoans
+    - 대출자가 보유중인 담보 대출 및 신용 대출 건수
+    - Integer
+- NumberOfTimes90DaysLate
+    - 과거 90일 이상 연체한 횟수
+    - Integer
+- NumberRealEstateLoansOrLines
+    - 주택 담보 대출을 포함한 부동산 담보 대출 건수
+    - Integer
+- NumberOfTime60-89DaysPastDueNotWorse
+    - 최근2년간 60 ~ 89일 연체한 횟수
+    - Integer
+- NumberOfDependents
+    - 대출자를 제외한 부양가족 수
+    - Integer
+ 
